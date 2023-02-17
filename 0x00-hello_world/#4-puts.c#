@@ -1,7 +1,7 @@
 #include<stdio.h>
 /*
- * main -It is the first function of every C program.
- * return:zero only if there's no error
+ *main-It is the first function of every C program
+ *return:zero only if there's no error
  */
 int main(void)
 {
