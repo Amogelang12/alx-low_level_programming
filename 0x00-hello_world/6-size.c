@@ -6,10 +6,9 @@
  */
 int main(void)
 {
-printf("The size of int is: %lu.\n", (unsigned long)sizeof(i));
-printf("The size of double is: $lu.\n", (unsigned long)sizeof(d));
-printf("The size of char is: %lu./n", (unsugned long)sizeof(c));
-
-make size
+printf("Size of a char: %ld byte(s)\n", sizeof(char));
+printf("Size of an int: %ld byte(s)\n", sizeof(int));
+printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %ld byte(s)\n", sizeof(long long int));
+printf("Size of a float: %ld byte(s)\n", sizeof(float));
 return (0);
-}
