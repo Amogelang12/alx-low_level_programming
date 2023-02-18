@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main -entry point of c programming
- *
- * Retun: zero value if there is no error, else non zero
- */
+*main -entry of a program
+*
+*Return: zero if there's no errors, non zero if errors
+*/
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
