@@ -1,11 +1,11 @@
 #include<stdio.h>
 /**
- * main -It is the first function of every C program.
+ * main -is the entry point for c program.
  *
- * return:zero only if there's no error , non zeron for errors
+ * Return:zero if no error, Non-zero value  if errors
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
