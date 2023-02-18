@@ -11,3 +11,5 @@ printf("The size of double is: $lu.\n", (unsigned long)sizeof(d));
 printf("The size of char is: %lu./n", (unsugned long)sizeof(c));
 
 make size
+return (0);
+}
