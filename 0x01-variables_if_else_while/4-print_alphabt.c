@@ -13,10 +13,7 @@ char al;
 
 for (al = 'a' ; al <= 'z' ; al++)
 {
-putchar(al);
-}
-for (al = 'A' ; al <= 'Z' ; al++)
-{
+if (al != 'e' && al != 'q')
 putchar(al);
 }
 putchar('\n');
