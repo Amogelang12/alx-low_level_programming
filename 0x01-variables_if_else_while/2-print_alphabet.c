@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  *main -is the entry point for c program
@@ -8,9 +9,12 @@
 
 int main(void)
 {
-int al;
+char al;
 
-for (al = 'a'; al <= 'z'; al++)
+for (al = 'a' ; al <= 'z' ; al++)
+{
 putchar(al);
+}
+putchar('\n');
 return (0);
 }
