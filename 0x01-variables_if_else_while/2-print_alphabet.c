@@ -8,11 +8,9 @@
 
 int main(void)
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-putchar(ch);
-}
-putchar('n\');
+int al;
+
+for (al = 'a'; al <= 'z'; al++)
+putchar(al);
 return (0);
 }
