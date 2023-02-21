@@ -1,4 +1,3 @@
-Bytes
 #include <stdio.h>
 /**
  * main - is entry of program
