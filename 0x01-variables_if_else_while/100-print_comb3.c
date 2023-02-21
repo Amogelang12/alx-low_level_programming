@@ -7,12 +7,15 @@ Bytes
  */
 int main(void)
 {
-int num;
+int num1 , num2;
 
-for (num = 01 ; x num < 89 ; num++)
+for (num1 = 0 ; num1 < 8 ; num1++)
 {
-putchar((num % 89) + '01');
-if (num == 88)
+for (num2 = 1 ; num2 < 9 ; num2++)
+{
+putchar((num1 % 8) + '0');
+putchar((num2 % 9) + '1');
+if (num1 == 8 && num2 == 9)
 
 continue;
 putchar(',');
