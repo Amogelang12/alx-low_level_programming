@@ -1,15 +1,11 @@
-julien@ubuntu:~/0x05$ cat 0-main.c
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code 
- *
- * Return: Always 0.
+ * reset_to_98 - a function that takes a pointer to an int as parameter
+ * and updates the value it points to to 98
+ * @n: input
+ * Return: n
  */
-
-void reset_to_98(int n)
+void reset_to_98(int *n)
 {
-*ptr_n =98;
-printf("n=%d\n", n);
+*n=98;
 }
